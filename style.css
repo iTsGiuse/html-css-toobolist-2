@@ -10,11 +10,54 @@
 .box-logo{
     width: 3000px;
     height: 100px;
-    background-color: f6f8f9;
+    background-color: #f6f8f9;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 img, h1 {
-    display:inline-block;
+    display: inline-block;
     vertical-align: middle;
 }
 /* Fine logo pagina */
+
+/* inizio impostazione larghezza corpo */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* fine impostazione larghezza corpo */
+
+/* inizio menu */
+.container_btn {
+    width: 1200px;
+    height: 70px;
+    background-color: #f6f8f9;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.btn {
+    border-radius: 10px;
+    border-color: white;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 10px;
+   
+}
+
+.btn_1{
+    background-color: #14aaf5;
+    color: white;
+}
+
+.btn_2 {
+   background-color: #ffffff;
+    color: grey;
+}
+
+/* fine menu */
