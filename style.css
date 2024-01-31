@@ -9,7 +9,7 @@
 /* Inizio logo pagina */
 .box-logo{
     width: 3000px;
-    height: 100px;
+    height: 50px;
     background-color: #f6f8f9;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -17,6 +17,8 @@
 img, h1 {
     display: inline-block;
     vertical-align: middle;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 700;
 }
 /* Fine logo pagina */
 
@@ -38,6 +40,8 @@ main {
     display: inline-block;
     margin-top: 10px;
     padding: 5px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
 }
 
 .btn {
@@ -47,7 +51,6 @@ main {
     margin-top: 10px;
     margin-left: 5px;
     padding: 10px;
-   
 }
 
 .btn_1{
@@ -59,5 +62,79 @@ main {
    background-color: #ffffff;
     color: grey;
 }
-
 /* fine menu */
+
+/* inizio corpo  */
+.container_corpo{
+    display: inline-block;
+    margin-top: 9px;
+    padding: 30px;
+    width: 1200px;
+    height: 500px;
+    background-color: #f6f8f9;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container_cerchio {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    margin-top: 10px;
+}
+.container_cerchio_green {
+    border-color: green;
+    color: green;
+}
+.container_cerchio_red {
+    border-color: red;
+    color: red;
+}
+
+h2 {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+}
+.container_tag {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+}
+
+.container_tag_blue {
+   background-color: #09a9ed;
+}
+.container_tag_viola {
+    background-color: #ab5de6;
+ }
+ .container_tag_verdescuro{
+    background-color: #2cc6ab;
+ }
+ .container_tag_arancione {
+    background-color: #ff9b00;
+ }
+ .container_tag_rosa {
+    background-color: #ab5de6;
+ }
+ .container_tag_verdechiaro {
+    background-color: #a3d116;
+ }
+/* fine corpo  */
